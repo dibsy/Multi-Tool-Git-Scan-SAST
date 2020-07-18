@@ -9,18 +9,20 @@ Trufflehog - Implemented
 Directory Structure
 ```
 .
-├── .env => Will store the target's git url repo , ex : https://github.com/dibsy/somerepo.git
+├── .env
+├── cleanup.sh
 ├── docker-compose-remote-scan.yml
 ├── gitleaks
 │   └── Dockerfile
 ├── README.md
-├── results => Will be generate during runtime 
+├── results #directory will be generated during runtime
 │   ├── gitleaks
-│   │   └── output.json => Will be generate during runtime
+│       └── output.log
 │   └── trufflehog
-│       └── output.json => Will be generate during runtime
+│       └── output.log
 └── trufflehog
     └── Dockerfile
+
 ```
 Usage
 ```
