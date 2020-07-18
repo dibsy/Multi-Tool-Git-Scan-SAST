@@ -1,0 +1,21 @@
+version: "3.1"
+services:
+  gitleaks:
+    container_name: gitleaks-container-remote-scan
+    build: 
+      context: ./gitleaks/
+      args:
+        - URL=${URL}
+    volumes: 
+      - ./results/gitleaks/:/results/
+
+  trufflehog:
+    container_name: trufflehog-container-remote-scan
+    build: 
+      context: ./trufflehog/
+      args:
+        - URL=${URL}
+    volumes: 
+      - ./results/trufflehog/:/results/
+        
+    
