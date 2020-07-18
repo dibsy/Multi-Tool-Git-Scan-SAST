@@ -24,7 +24,7 @@ Directory Structure
 ```
 Usage
 ```
-1. Create .env file put a remote git url example : https://github.com/dibsy/somerepo.git
+1. Create/Modify .env file and add remote git url, example : URL=https://github.com/dibsy/somerepo.git
 2. docker-compose -f docker-compose-remote-scan.yml up  --build
 ```
 Output
