@@ -1,4 +1,4 @@
-# Multi-Tool-Git-SAST
+# Multi Tool Git Scan SAST
 Automating using multi Git SAST tools like trufflehog, gitleaks ,etc
 ```
 .
