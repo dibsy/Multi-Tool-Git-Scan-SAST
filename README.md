@@ -1,5 +1,11 @@
 # Multi Tool Git Scan SAST
-Automating using multi Git SAST tools like trufflehog, gitleaks ,etc
+Automating various Git SAST Scanner tools like trufflehog, gitleaks ,etc
+
+Tools Used
+```
+Gitleaks - Implemented
+Trufflehog - Implemented
+```
 
 Usage
 ```
