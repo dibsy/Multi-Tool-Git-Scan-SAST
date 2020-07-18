@@ -1,4 +1,4 @@
-# Multi-Tool-Git-SAST
+# Multi Tool Git Scan SAST
 Automating using multi Git SAST tools like trufflehog, gitleaks ,etc
 ```
 .
@@ -6,8 +6,6 @@ Automating using multi Git SAST tools like trufflehog, gitleaks ,etc
 ├── gitleaks
 │   └── Dockerfile
 ├── README.md
-├── result
-│   └── gitleaks
 ├── results
 │   ├── gitleaks
 │   │   └── output.json
