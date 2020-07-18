@@ -28,3 +28,7 @@ Directory Structure
 └── trufflehog
     └── Dockerfile
 ```
+Todo
+```
+Custom Regex Files Inclusion
+``
