@@ -5,4 +5,4 @@ RUN chmod +x gitleaks-linux-amd64
 ARG URL
 ENV URL_TEMP ${URL}
 RUN echo $URL_TEMP
-CMD ./gitleaks-linux-amd64 -v --repo=$URL_TEMP --report-format=json --report=/results/output.json
+CMD ./gitleaks-linux-amd64 -v --repo=$URL_TEMP --report-format=json --report=/results/output.log
