@@ -4,5 +4,4 @@ RUN wget https://github.com/zricethezav/gitleaks/releases/download/v4.3.1/gitlea
 RUN chmod +x gitleaks-linux-amd64
 ARG URL
 ENV URL_TEMP ${URL}
-RUN echo $URL_TEMP
 CMD ./gitleaks-linux-amd64 -v --repo=$URL_TEMP --report-format=json --report=/results/output.log
