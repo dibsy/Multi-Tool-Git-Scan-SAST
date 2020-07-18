@@ -7,7 +7,7 @@ Automating using multi Git SAST tools like trufflehog, gitleaks ,etc
 ├── gitleaks
 │   └── Dockerfile
 ├── README.md
-├── results
+├── results => Will be generate during runtime 
 │   ├── gitleaks
 │   │   └── output.json => Will be generate during runtime
 │   └── trufflehog
